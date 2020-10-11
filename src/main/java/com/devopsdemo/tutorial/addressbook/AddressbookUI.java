@@ -114,6 +114,7 @@ public class AddressbookUI extends UI {
 
         // Split and allow resizing
         setContent(mainLayout);
+        
     }
 
     /*
@@ -144,6 +145,8 @@ public class AddressbookUI extends UI {
     @WebServlet(urlPatterns = "/*")
     @VaadinServletConfiguration(ui = AddressbookUI.class, productionMode = false)
     public static class MyUIServlet extends VaadinServlet {
+        
+        
     }
 
 }
